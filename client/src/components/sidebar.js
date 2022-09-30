@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Tab, Nav, Button, Modal } from 'react-bootstrap';
-import Conversations from './conversations';
-import Contacts from './contacts';
-import NewContactModal from './new-contact-modal';
-import NewConversationModal from './new-conversations-modal';
+import Conversations from './Conversations';
+import Contacts from './Contacts';
+import NewContactModal from './NewContactModal';
+import NewConversationModal from './NewConversationsModal';
 
 const CONVERSATIONS_KEY = 'conversations';
 const CONTACTS_KEY = 'contacts';

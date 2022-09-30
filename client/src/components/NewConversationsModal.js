@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
-import { useContacts } from '../contexts/contacts-context';
-import { useConversations } from '../contexts/conversation-context';
+import { useContacts } from '../contexts/ContactsProvider';
+import { useConversations } from '../contexts/ConversationProvider';
 
 
 const NewConversationModal = ({ closeModal }) => {
